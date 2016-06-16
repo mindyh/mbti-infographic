@@ -1,0 +1,256 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head> 
+	<!--fb-->
+	<meta property="fb:admins" content="1560511928" />
+	
+	<!-- fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Understand Yourself | the MBTI</title> 
+	<link rel="stylesheet" href="style.css" />
+	<script src="jquery-1.8.3.min.js"></script>
+</head> 
+
+<body>
+	<!--setting up fb-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
+	<div id="title_wrapper">
+		<div id="title" class="clearfix">
+			<h1>Understand Yourself</h1>
+			<p>The Myers-Briggs Personality Type</p>
+			<a href="#" id="credits_link">Credits</a>
+			<div class="fb-like" data-href="http://stanford.edu/~mindyh/cgi-bin/pwr/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="tahoma"></div>
+		</div><!--title-->
+	</div><!--title-wrapper-->
+	
+	<div id="credits" class="hidden">
+		<h3>Mindy Huang </h3>
+		mindyh@stanford.edu <br/ >
+		Made for PWR2SLA <br />
+		<br />
+		<p class='bold'>Sources:</p>
+		<ul>
+			<li>http://www.wsc.edu/advising_services/career_planning/</li>
+			<li>Berens, Linda V. and Dario Nardi. Understanding Yourself and Others: An Introduction to the Personality Type Code. Huntington Beach, CA: Telos Publications, 2004. Book.</li>
+			<li>http://cdn4.ngin.com/attachments/photo/0851/3230/MBTI_chart_3_large.jpg</li>
+			<li>http://psychology-tools.com/myers-briggs-type-indicator/</li>
+			<li>http://www.cognitiveprocesses.com/</li>
+			<li>http://faculty.ccbcmd.edu/~hzlotow1/</li>
+		</ul>
+	</div><!--credits-->
+	
+	<div id="body" class="clearfix">			
+		<div id="preferences">
+			<h2 class="subheader first_time">Preferences</h2>
+			<div class="subbody">
+				<div class="desc">
+					<h3>The 4 Preferences</h3>
+					<p>The Myers-Briggs Type Indicator identifies four ways we interact with the world, and two preferences for each kind of interaction. An MBTI type is encoded in four letters.</p>
+					
+					<p class="">For a more detailed test of your preferences, <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp" target="_blank">go here.</a></p>
+				</div><!--desc-->
+				
+				<div id="choose">
+					<h3>Choose your Preferences</h3>
+					<p>How you...</p>
+					<div id="energy">
+						<div id="I" class="button"><span>I</span></div>
+						<div id="E" class="button" ><span>E</span></div>
+						<div><span>gain energy</span></div>
+						
+						<div class="pref-desc clearfix">
+							<div>
+								<h4>Introvert:</h4>
+								gains energy by being alone
+							</div><!--introvert-->
+							<div>
+								<h4>Extrovert:</h4>
+								gains energy around other people
+							</div><!--extrovert-->
+						</div> <!--dropdown-->
+					</div><!--energy-->
+					
+					<div id="information">
+						<div id="S" class="button"><span>S</span></div>
+						<div id="N" class="button"><span>N</span></div>
+						<div><span>process information</span></div>
+						
+						<div class="hidden pref-desc clearfix">
+							<div>
+								<h4>Sensing:</h4>
+								looks at details before the big picture
+							</div><!--introvert-->
+							<div>
+								<h4>iNtuition:</h4>
+								looks at the big picture before details
+							</div><!--extrovert-->
+						</div> <!--dropdown-->
+					</div><!--energy-->
+					
+					<div id="decisions">
+						<div id="T" class="button"><span>T</span></div>
+						<div id="F" class="button"><span>F</span></div>
+						<div><span>make decisions</span></div>
+						
+						<div class="hidden pref-desc clearfix">
+							<div>
+								<h4>Thinking:</h4>
+								based on objective rationale
+							</div><!--introvert-->
+							<div>
+								<h4>Feeling:</h4>
+								based on potential emotional impact
+							</div><!--extrovert-->
+						</div> <!--dropdown-->
+					</div><!--energy-->
+					
+					<div id="organize">
+						<div id="J" class="button"><span>J</span></div>
+						<div id="P" class="button"><span>P</span></div>
+						<div><span>organize your life</span></div>
+						
+						<div class="hidden pref-desc clearfix">
+							<div>
+								<h4>Judging:</h4>
+								likes closure, prefers making decisions
+							</div><!--introvert-->
+							<div>
+								<h4>Perceiving:</h4>
+								likes possibilities, prefers gathering information
+							</div><!--extrovert-->
+						</div> <!--dropdown-->
+					</div><!--energy-->
+					
+					<div id="submit">
+						<span>Calculate Your Functions</span>
+					</div><!--submit-->
+				</div><!--choose-->
+			</div><!--subbody-->
+		</div><!--preferences-->
+
+		<div id="functions">
+			<h2 class="subheader first_time still_first_time">Functions</h2>
+			<div class="subbody first_time"> <!--first_time-->
+				<div class="desc">
+					<h3>The 8 Cognitive Functions</h3>
+					
+					<p>The 8 Cognitive Functions is a <span class="bold">breakdown of your typical thought process.</span> <a href="#" id="learn_more">&nbsp; Learn more &#9660;</a></p>
+
+					<div id="theory" class="hidden">
+						<p>There are 2 things the brain can do:</p>
+						<ul>
+							<li>
+								<p><span id="perceive">perceive</span>: take in information. You can perceive by</p>
+								<ul>
+									<li><span class="bold">Sensing</span>: take in details</li>
+									<li><span class="bold">Intuiting</span>: take in the overall situation</li>
+								</ul>
+							</li>
+							<li>
+								<p><span id="judge">judge</span>: decide how to act, think, or feel given that information. You can judge by</p>
+								<ul>
+									<li><span class="bold">Thinking</span>: Make decisions objectively</li>
+									<li><span class="bold">Feeling</span>: Make decisions emotionally</li>
+								</ul>
+							</li>
+						</ul>
+					
+						<p>Each of these can also be directed either <span class="bold">internally</span> or <span class="bold">externally</span>. So for example, the a Thinking function that's directed externally is called <span class="">"Extraverted Thinking (Te),"</span> and is a type of Judging. <br /> <br />
+						
+						This gives a total of 8 functions. Different personalities prefer to use different functions more than others.</p>
+					</div><!--theory-->
+				</div><!--desc-->
+				
+				<h3 class="title">Your Function Hierarchy</h3>
+				
+				<div id="animate">
+					<p id="fence_building" class="hidden">Let's say you see someone building a fence.</p>
+					<p id="first_thought" class="hidden">First you use</p>
+					<p id="second_thought"  class="hidden">Then you use</p>
+					<p id="third_thought" class="hidden">and so on</p>
+				</div>		
+				
+				<div id="diagram_wrapper">	
+					<div id="function_desc_center" class="hidden" >
+						<h4>Extraverted Sensing</h4>
+						<p class="summary"></p>
+						<p class="example"></p>
+					</div>
+					<div id="diagram">
+						<div id="Se" class="function sensing"><span>Se</span></div>
+						<div id="Fi" class="function judging"><span>Fi</span></div>
+						<div id="Te" class="function judging"><span>Te</span></div>
+						<div id="Ni" class="function sensing"><span>Ni</span></div>
+						<div id="Si" class="function sensing"><span>Si</span></div>					
+						<div id="Fe" class="function judging"><span>Fe</span></div>
+						<div id="Ti" class="function judging"><span>Ti</span></div>
+						<div id="Ne" class="function sensing"><span>Ne</span></div>	
+					</div><!--radial_container-->
+				</div><!--diagram_wrapper-->
+			</div><!--subbody-->
+		</div><!--functions-->
+
+		<div id="personal">
+			<h2 class="subheader first_time">Applications</h2>
+			<div class="subbody hidden"> 
+				<div id="head">
+					<div class="desc">
+						<h3></h3>
+						<p class="hidden">value <span class="bold"></span>.</p>
+					</div>
+				</div><!--desc-->
+				
+						
+				<div id="strengths">
+					<div class="desc">
+						<h3>Strengths</h3>
+						<ul>
+						 
+						</ul>
+					</div>
+				</div>
+				
+				<div id="weaknesses">
+					<div class="desc">
+						<h3>Weaknesses</h3>
+						<ul>
+						
+						</ul>
+					</div>
+				</div> 
+				 
+				<div id="careers">
+					<div class="desc">
+						<h3>Careers should include</h3>
+						<ul>
+						
+						</ul>
+					</div>
+				</div>
+				
+				<p id="careers_link" class="hidden"><a href="http://www.wsc.edu/advising_services/career_planning/exploration/personality_careers/" target="_blank" >More information</a></p> <img alt="external link" src="ext-link.png" /> 
+				<!--<p>Remember - these are not rules, just suggestions.</p>-->
+			</div><!--subbody-->
+		</div><!--personal-->	
+	</div><!--body-->
+	
+	<script type="text/javascript" src="js.js"></script>
+	<script type="text/javascript" src="jstest.js"></script>
+</body>
+
+</html>
